@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>CodeClub Convert Money</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>CodeClub Convert Money</h1>
+        </header>
+
+        <main>
+            <label>
+                Converter <b>de </b>
+                <select >
+                    <option value="">R$ Real brasileiro</option>
+                </select>
+            </label>
+
+            <label>
+                Converter <b> para </b>
+                <select id="currency-select">
+                    <option> US$ Dólar americano</option>
+                    <option> € Euro </option>
+                    <option> Bitcoin</option>
+                </select>
+            </label>
+            <label>
+                Valor
+                <input id="input-real" placeholder="R$ 10.000,00">
+
+                <button id="convert-button" type="button">Converter</button>
+
+                <section>
+                    <div class="currency-container">
+                        <img src="./assets/brazil.png" alt="bandeira do Brasil">
+                        <p class="currency-name">Real</p>
+                        <p class="currency-value" id="real-value-text">RS 10.000,00</p>
+                    </div>
+                    
+                    <img class="arrow-img" src="./assets/arrow.png" alt="seta apoontando para baixo">
+                    
+                    <div class="currency-container">
+                        <img src="./assets/usa.png" id="currency-img" alt="bandeira-pais-conversão">
+                        <p class="currency-name" id="currency-name"> Dólar americano</p>
+                        <p class="currency-value" id="currency-value-text">US$ 2.000,00</p>
+                    </div>
+                </section>
+
+            </label>
+        </main>
+
+    </div>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
