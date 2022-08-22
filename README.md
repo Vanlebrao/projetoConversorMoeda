@@ -57,7 +57,7 @@ Ferramentas utilizadas para construção do conversor de moedas foram:
 
 <table>
   <tr>
-    <td align="center">
+    <td align="right">
       <a href="https://github.com/rodolfomori" target="blank">
         <img src="https://user-images.githubusercontent.com/95030203/155012879-fc6991b4-5357-4675-9ef5-1dd56f795265.png" width="100px;" alt="Foto do Rodolfo Mori"/><br>
         <sub>
@@ -66,7 +66,7 @@ Ferramentas utilizadas para construção do conversor de moedas foram:
       </a>
     </td>
 
- <table>
+
   <tr>
     <td align="center">
       <a href="https://github.com/Cibell" target="blank">
@@ -76,6 +76,7 @@ Ferramentas utilizadas para construção do conversor de moedas foram:
         </sub>
       </a>
     </td>
+    </table>
 
 
 
