@@ -9,7 +9,7 @@ O projeto ajudou a fixar os conhecimento adquiridos e foi uma grande realizaçã
 
 **Próximo passo** é adicionar a funcionalidade de realizar a conversão do Real para as moedas (Dólar, Euro e Bitcoin) com cotação atual, quando chegar no módulo de Node.
 
-![image-20220822103512536](C:\Users\vanle\AppData\Roaming\Typora\typora-user-images\image-20220822103512536.png)
+![image](./assets/image-20220822103512536.png)
 
 ## 🚀 Começando
 
