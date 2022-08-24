@@ -9,26 +9,31 @@
 }
 body {
     background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     width: 375px;
     background-color: #f4f4f4;
-    margin: 0 auto;
-    margin-top: 100px;
-    
+       
 }
+
 header {
     background-color: #1B83E2;
     height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     font-size: 24px;      
     align-items: center;    
     color: #F4F4F4;  
-    text-align: center;
-    padding-top: 25px;
+    
 }
 
 main {
@@ -98,13 +103,20 @@ button:active {
 section {
     border: 1px solid #1B83E2;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .currency-container {
-    text-align: center;
     padding: 10px;
     font-size: 14px;
     color: #777777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
 }
 
 .currency-value {
@@ -113,7 +125,3 @@ section {
     font-size: 20px;
 }
 
-.arrow-img {
-   margin: 15px auto;
-   display: block;
-}
