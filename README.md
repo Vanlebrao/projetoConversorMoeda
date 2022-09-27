@@ -8,6 +8,8 @@ Principais desafios foi adicionar a conversão de reais para Bitcoins, pois tive
 O projeto ajudou a fixar os conhecimento adquiridos e foi uma grande realização finalizar esse projeto.
 
 **Próximo passo** é adicionar a funcionalidade de realizar a conversão do Real para as moedas (Dólar, Euro e Bitcoin) com cotação atual, quando chegar no módulo de Node.
+**Atualização do projeto** 👩‍💻❤️ 27 de setembro de 2022, após as aulas do módulo de Back-end, foi adicionado uma API para o cálculo do valor em tempo real.
+
 
 ![image](./assets/image-20220822103512536.png)
 
